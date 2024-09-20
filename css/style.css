@@ -1,0 +1,52 @@
+.header-style {
+    font-family: "Raleway";
+    font-weight: bold;
+}
+
+.paragraph-style {
+    font-family: "Assistant";
+}
+
+.body-style {
+    padding-top: 5rem;
+}
+
+.starter-template {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.section-odd {
+    background-color: #6EACDA;
+    margin: ;
+}
+
+.section-even {
+    background-color: lightgray;
+}
+
+/* 9/9/2024 added padding for name under the nav bar */
+.name-padding {
+    padding: 30px 0px;
+}
+
+/* added padding for the nav bar */
+.nav-padding {
+    padding: 20px 2% 0px 10px;
+}
+
+.gradient-background {
+    background: linear-gradient(270deg, #6EACDA, #03346E, #021526);
+    background-size: 200% 200%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+.general-padding {
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+}
