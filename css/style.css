@@ -69,7 +69,7 @@ a {
     background-size: 200% 200%;
     animation: gradient-animation 18s ease infinite;
     color: white;
-    margin: 5px;
+    margin: 10px 3%;
     border-color: #03346E;
     border-width: 3px;
 }
