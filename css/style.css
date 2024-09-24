@@ -20,7 +20,7 @@
 
 .section-odd {
     background-color: #6EACDA;
-    margin: ;
+    /* margin: ; */
 }
 
 .section-even {
@@ -49,4 +49,27 @@
 
 a {
     text-decoration: none;
+}
+
+.skills-header {
+    padding: 75px 20px 10px 10px;
+}
+
+.skills-title {}
+
+.skills-image {
+    width: 900px;
+    height: 600px;
+
+}
+
+.skills-card {
+    width: 18rem;
+    background: linear-gradient(270deg, #6EACDA, #03346E, #021526);
+    background-size: 200% 200%;
+    animation: gradient-animation 18s ease infinite;
+    color: white;
+    margin: 5px;
+    border-color: #03346E;
+    border-width: 3px;
 }
