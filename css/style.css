@@ -72,8 +72,15 @@ a {
     margin: 10px 3%;
     border-color: #03346E;
     border-width: 3px;
+    border-radius: 30px;
 }
 
 .img-width {
     max-width: 100%;
+    border-radius: 35px;
+
+}
+
+figcaption {
+    font-size: xx-small;
 }
