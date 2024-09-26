@@ -1,3 +1,16 @@
+@media screen and (max-width: 1000px) {
+    .media-query1 {
+        color: hotpink;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .media-query2 {
+        background-color: greenyellow;
+    }
+}
+
+
 .header-style {
     font-family: "Raleway";
     font-weight: bold;
