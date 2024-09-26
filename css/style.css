@@ -55,7 +55,7 @@ a {
     padding: 75px 20px 10px 10px;
 }
 
-.skills-title {}
+/* .skills-title {} */
 
 .skills-image {
     width: 900px;
@@ -72,4 +72,8 @@ a {
     margin: 10px 3%;
     border-color: #03346E;
     border-width: 3px;
+}
+
+.img-width {
+    max-width: 100%;
 }
