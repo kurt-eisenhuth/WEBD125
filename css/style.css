@@ -1,4 +1,4 @@
-/* @media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
     .media-query1 {
         color: hotpink;
     }
@@ -8,7 +8,7 @@
     .media-query2 {
         background-color: greenyellow;
     }
-} */
+}
 
 
 .header-style {
