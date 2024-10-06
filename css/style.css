@@ -17,8 +17,17 @@
     font-weight: bold;
 }
 
+/* Added definition to the form from the background. */
+.form-style {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
 .paragraph-style {
     font-family: "Assistant";
+
 }
 
 .body-style {
@@ -37,6 +46,8 @@
     /* margin: ; */
 }
 
+/* Reusing this from the resume.html file 10/6/2024
+Makes the form stand out from the background */
 .section-even {
     background-color: lightgray;
 }
@@ -97,4 +108,23 @@ a {
 
 figcaption {
     font-size: xx-small;
+}
+
+/* Rounded the button 10/6/2024 */
+.button-change {
+    background-color: gray;
+    border-radius: 30px;
+}
+
+/* Changed button hover. Its pink. Everything else was boring and gray. 10/6/2024 */
+.button-change:hover {
+    background-color: hotpink;
+}
+
+/* Added hover effect to show where the user is on the page 10/6/2024 */
+input:hover {
+    transform: scale(1.05);
+    border-color: gray;
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.5);
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
