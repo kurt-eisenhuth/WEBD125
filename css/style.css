@@ -27,7 +27,7 @@
 
 .paragraph-style {
     font-family: "Assistant";
-
+    padding: 0 20px;
 }
 
 .body-style {
@@ -42,14 +42,28 @@
 }
 
 .section-odd {
-    background-color: #6EACDA;
-    /* margin: ; */
+    position: sticky;
+    top: 0;
+    background-color: gray;
+    margin: 0;
+    width: 100vw;
+    height: 300px;
+    padding: 0;
+
 }
+
+
 
 /* Reusing this from the resume.html file 10/6/2024
 Makes the form stand out from the background */
 .section-even {
-    background-color: lightgray;
+    position: sticky;
+    top: 0;
+    background-color: lightgrey;
+    width: 100vw;
+    height: 300px;
+    margin: 0;
+    padding: 20px;
 }
 
 /* 9/9/2024 added padding for name under the nav bar */
@@ -103,12 +117,9 @@ a {
 .img-width {
     max-width: 100%;
     border-radius: 35px;
-
 }
 
-figcaption {
-    font-size: xx-small;
-}
+
 
 /* Rounded the button 10/6/2024 */
 .button-change {
@@ -127,4 +138,8 @@ input:hover {
     border-color: gray;
     box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.5);
     transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+figcaption {
+    font-size: xx-small;
 }
