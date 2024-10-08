@@ -52,7 +52,9 @@
 
 }
 
-
+.projects-section {
+    height: auto;
+}
 
 /* Reusing this from the resume.html file 10/6/2024
 Makes the form stand out from the background */
@@ -119,7 +121,18 @@ a {
     border-radius: 35px;
 }
 
+.img-resume {
+    top: 0;
+    position: sticky;
+    width: 500px;
+    height: 500px;
+}
 
+/* Carousel margin */
+
+.carousel-margin {
+    margin-top: 100px;
+}
 
 /* Rounded the button 10/6/2024 */
 .button-change {
@@ -142,4 +155,22 @@ input:hover {
 
 figcaption {
     font-size: xx-small;
+}
+
+/* carousel image settings */
+.img-carousel {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-indicators {
+    bottom: 20px;
+}
+
+footer {
+    margin-top: 250px;
 }
