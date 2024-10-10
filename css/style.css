@@ -1,16 +1,16 @@
-@media screen and (max-width: 1000px) {
-    .media-query1 {
-        color: hotpink;
-    }
+/* Kurt Eisenhuth Final Project CSS file */
+
+a {
+    text-decoration: none;
 }
 
-@media screen and (max-width: 600px) {
-    .media-query2 {
-        background-color: greenyellow;
-        color: hotpink;
-    }
+figcaption {
+    font-size: xx-small;
 }
 
+footer {
+    margin-top: 250px;
+}
 
 .header-style {
     font-family: "Raleway";
@@ -88,10 +88,6 @@ Makes the form stand out from the background */
     padding: 30px;
 }
 
-a {
-    text-decoration: none;
-}
-
 .skills-header {
     padding: 75px 20px 10px 10px;
 }
@@ -153,10 +149,6 @@ input:hover {
     transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-figcaption {
-    font-size: xx-small;
-}
-
 /* carousel image settings */
 .img-carousel {
     max-height: 100%;
@@ -171,6 +163,15 @@ figcaption {
     bottom: 20px;
 }
 
-footer {
-    margin-top: 250px;
+@media screen and (max-width: 1000px) {
+    .media-query1 {
+        color: hotpink;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .media-query2 {
+        background-color: greenyellow;
+        color: hotpink;
+    }
 }
